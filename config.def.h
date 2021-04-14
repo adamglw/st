@@ -134,7 +134,7 @@ static const char *colorname[] = {
   [255] = 0,
 
   /*More colors can be added after 255 to use with DefaultXX */
-  [256] = "#1d2021", /* gruvbox bg0_h (looks like bg0_s  with transparent bg) */
+  [256] = "#282828", /* background color */
 };
 
 /*
