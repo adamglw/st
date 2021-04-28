@@ -106,35 +106,35 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.85;
+float alpha = 0.90;
  
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 
   /* 8 normal colors */
-  [0] = "#282828", /* bg      */
-  [1] = "#cc241d", /* red     */
-  [2] = "#98971a", /* green   */
-  [3] = "#d79921", /* yellow  */
-  [4] = "#458588", /* blue    */
-  [5] = "#b16286", /* purple  */
-  [6] = "#689d6a", /* aqua    */
-  [7] = "#a89984", /* gray    */
+  [0] = "#292d3e", /* bg      */
+  [1] = "#f07178", /* red     */
+  [2] = "#c3e88d", /* green   */
+  [3] = "#ffcb6b", /* yellow  */
+  [4] = "#82aaff", /* blue    */
+  [5] = "#c792ea", /* purple  */
+  [6] = "#89ddff", /* aqua    */
+  [7] = "#a6accd", /* gray    */
 
   /* 8 bright colors */
-  [8]  = "#928374", /* gray    */
-  [9]  = "#fb4934", /* red     */
-  [10] = "#b8bb26", /* green   */
-  [11] = "#fabd2f", /* yellow  */
-  [12] = "#83a598", /* blue    */
-  [13] = "#d3869b", /* purple  */
-  [14] = "#8ec07c", /* aqua    */
-  [15] = "#ebdbb2", /* fg      */
+  [8]  = "#858aa4", /* gray (20% darker than 7) */
+  [9]  = "#ff7c84", /* red (10% lighter) */
+  [10] = "#d7ff9b", /* green (10% lighter) */
+  [11] = "#ffdf76", /* yellow (10% lighter) */
+  [12] = "#8fbbff", /* blue (10% lighter) */
+  [13] = "#dba1ff", /* purple (10% lighter) */
+  [14] = "#97f3ff", /* aqua (10% lighter) */
+  [15] = "#c7cef6", /* fg (20% lighter) */
   
   [255] = 0,
 
   /*More colors can be added after 255 to use with DefaultXX */
-  [256] = "#282828", /* background color */
+  [256] = "#202331", /* background color */
 };
 
 /*
