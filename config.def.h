@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Hack Nerd Font:size=11:antialias=true:autohint=true";
+static char *font = "Hack Nerd Font:pixelsize=14:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -129,12 +129,12 @@ static const char *colorname[] = {
   [12] = "#8fbbff", /* blue (10% lighter) */
   [13] = "#dba1ff", /* purple (10% lighter) */
   [14] = "#97f3ff", /* aqua (10% lighter) */
-  [15] = "#c7cef6", /* fg (20% lighter) */
+  [15] = "#d3d6e6", /* fg (50% lighter) */
   
   [255] = 0,
 
   /*More colors can be added after 255 to use with DefaultXX */
-  [256] = "#202331", /* background color */
+  [256] = "#212432", /* background color */
 };
 
 /*
