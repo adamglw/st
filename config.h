@@ -112,30 +112,29 @@ float alpha = 0.85;
 static const char *colorname[] = {
 
   /* 8 normal colors */
-  [0] = "#292d3e", /* bg      */
-  [1] = "#f07178", /* red     */
-  [2] = "#c3e88d", /* green   */
-  [3] = "#ffcb6b", /* yellow  */
-  [4] = "#82aaff", /* blue    */
-  [5] = "#c792ea", /* purple  */
-  [6] = "#89ddff", /* aqua    */
-  [7] = "#a6accd", /* gray    */
+  [0] = "#262626", /* Iwa     */
+  [1] = "#ac8a8c", /* Kaen    */
+  [2] = "#8aac8b", /* Take    */
+  [3] = "#aca98a", /* Chikyu  */
+  [4] = "#8a98ac", /* Shinkai */
+  [5] = "#8f8aac", /* Ume     */
+  [6] = "#8aacab", /* Mizu    */
+  [7] = "#e7e7e7", /* Usagi   */
 
   /* 8 bright colors */
-  [8]  = "#858aa4", /* gray (20% darker than 7) */
-  [9]  = "#ff7c84", /* red (10% lighter) */
-  [10] = "#d7ff9b", /* green (10% lighter) */
-  [11] = "#ffdf76", /* yellow (10% lighter) */
-  [12] = "#8fbbff", /* blue (10% lighter) */
-  [13] = "#dba1ff", /* purple (10% lighter) */
-  [14] = "#97f3ff", /* aqua (10% lighter) */
-  [15] = "#d3d6e6", /* fg (50% lighter) */
+  [8]  = "#4c4c4c", /* Amagumo*/
+  [9]  = "#c49ea0", /* Ichigo */
+  [10] = "#9ec49f", /* Kusa   */
+  [11] = "#c4c19e", /* Suna   */
+  [12] = "#a5b4cb", /* Kori   */
+  [13] = "#a39ec4", /* Ajisai */
+  [14] = "#9ec3c4", /* Sora   */
+  [15] = "#f0f0f0", /* Yuki   */
   
   [255] = 0,
 
   /*More colors can be added after 255 to use with DefaultXX */
-//  [256] = "#212432", /* background color */
-  [256] = "#292d3e",
+  [256] = "#262626", /* background color */
 };
 
 /*
